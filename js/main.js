@@ -114,8 +114,12 @@ const swiperBlog = new Swiper(".blog-slider", {
 const swiperCenter = new Swiper(".center-slider", {
   speed: 600,
   slidesPerView: 2,
-  loop: true,
   spaceBetween: 30,
+  loop: true,
+  loopAdditionalSlides: 2,
+  allowTouchMove: true,
+  centeredSlides: false,
+  watchSlidesProgress: true,
   navigation: {
     nextEl: ".center-button-next",
     prevEl: ".center-button-prev",

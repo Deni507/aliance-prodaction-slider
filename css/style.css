@@ -892,10 +892,9 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
 }
 .swiper.center-slider {
   padding: 0 150px;
-  overflow: visible;
+  overflow: hidden;
   overflow-x: hidden;
 }
-
 .center-card {
   height: 400px;
   display: flex;
